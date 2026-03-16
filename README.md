@@ -713,3 +713,76 @@ If you find this list helpful, please consider:
 [⬆️ Back to Top](#-shizuku-apps---root-alternative)
 
 </div>
+
+---
+
+## 🆕 2026 Updates & New Additions
+
+> Apps added/updated in the 2025-2026 refresh based on community activity and new releases.
+
+### 🎨 Customization — New Additions
+
+| App | Description | Source |
+|-----|-------------|--------|
+| **ColorBlendr** ⭐ | Modify Material You colors device-wide without root | [GitHub](https://github.com/Mahmud0808/ColorBlendr) |
+| **essentials for Pixel** ⭐ | Must-have mods & workarounds for Pixel phones | [GitHub](https://github.com/rushiranpise/essentials) |
+| **Extendroid** | Desktop-like multi-window on smartphones | [GitHub](https://github.com/JeelsBoobies/Extendroid) |
+| **setbox** | Modify Android system settings via community modules | [GitHub](https://github.com/ThePBone/setbox) |
+| **Language-Selector** | Set per-app language independently | [GitHub](https://github.com/VegaBobo/Language-Selector) |
+| **Adaptive-Theme** | Smart dark mode that adapts to ambient light | [GitHub](https://github.com/D3SOX/Adaptive-Theme) |
+| **AutoDark** | Schedule dark/light mode toggle | [GitHub](https://github.com/teens-in-tech/AutoDark) |
+| **CarrierVanityName** | Change carrier name display without root | [GitHub](https://github.com/nullbytepl/CarrierVanityName) |
+| **MultiLocale** | Add unsupported languages to Xiaomi/OEM devices | [GitHub](https://github.com/JeelsBoobies/MultiLocale) |
+
+### ⚡ Power Management — New Additions
+
+| App | Description | Source |
+|-----|-------------|--------|
+| **BatteryBot Pro** | Battery charge limiting & health monitoring | Play Store |
+| **Charge Limit** | Stop charging at custom % to preserve battery | [GitHub](https://github.com/MuntashirAkon/charge-limit) |
+| **Smart Charging** ⭐ | Intelligent charge management via Shizuku | Play Store |
+
+### 🔒 Privacy — New Additions
+
+| App | Description | Source |
+|-----|-------------|--------|
+| **Canta** ⭐ | On-device debloater using UAD-NG lists, no PC needed | [GitHub](https://github.com/samolego/Canta) |
+| **AppManager** ⭐ | Advanced package manager with debloat & privacy features | [GitHub](https://github.com/MuntashirAkon/AppManager) |
+| **Tarnhelm** | Remove tracking parameters from shared links | [GitHub](https://github.com/lz233/Tarnhelm) |
+| **Blocker** | Per-app component control (activities, services, receivers) | [GitHub](https://github.com/lihenggui/blocker) |
+
+### 📱 Software Management — New Additions
+
+| App | Description | Source |
+|-----|-------------|--------|
+| **Obtainium** ⭐ | Get app updates directly from source (GitHub, GitLab, F-Droid) | [GitHub](https://github.com/ImranR98/Obtainium) |
+| **Neo Store** | Modern Material You F-Droid client | [GitHub](https://github.com/NeoApplications/Neo-Store) |
+| **DSU Sideloader** | Flash Generic System Images without unlocking bootloader | [GitHub](https://github.com/VegaBobo/DSU-Sideloader) |
+
+### 🔧 Automation — New Additions
+
+| App | Description | Source |
+|-----|-------------|--------|
+| **Geto** ⭐ | Auto-change device settings when specific apps launch | [GitHub](https://github.com/JackEblan/Geto) |
+| **AutoJs6** | JavaScript automation engine (Tasker alternative) | [GitHub](https://github.com/SuperMonster003/AutoJs6) |
+
+---
+
+## 🛠️ Scripts & Tools
+
+The [`/scripts`](./scripts/) directory contains helper scripts to set up Shizuku faster:
+
+- **`shizuku-check.sh`** — Verify Shizuku is installed and running
+- **`grant-shizuku-perms.sh`** — Grant `WRITE_SECURE_SETTINGS` to popular apps in one command
+- **`wireless-adb-setup.sh`** — Set up wireless ADB so Shizuku runs cable-free
+
+```bash
+# Quick start
+bash scripts/shizuku-check.sh
+bash scripts/wireless-adb-setup.sh
+bash scripts/grant-shizuku-perms.sh
+```
+
+---
+
+*Last Updated: March 2026* | *180+ Apps* | *20+ Categories*
