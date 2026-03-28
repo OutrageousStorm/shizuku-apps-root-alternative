@@ -1,0 +1,20 @@
+{
+  "name": "shizuku-adb-helper",
+  "version": "1.0.0",
+  "description": "Node.js helper to set up and verify Shizuku wireless ADB pairing",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0"
+  }
+}
